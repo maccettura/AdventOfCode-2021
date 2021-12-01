@@ -5,7 +5,7 @@ namespace AdventOfCode
 {
     public static class SolutionRepository
     {
-        private static readonly List<ISolution> _allSolutions = new List<ISolution>()
+        private static readonly List<ISolution> _allSolutions = new()
         {
             new Day01.Solution(),
             new Day02.Solution(),
